@@ -4,16 +4,38 @@
     box-sizing: border-box;
 }
 
+.primertitulo{
+    text-align: center;
+    color: rgb(169, 70, 236);
+}
+
+.primersubtitulo{
+    color:rgb(169, 70, 236)
+}
+.mydog{
+    column-rule: red;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 144, 249);
+}
+
+img{
+    border-radius: 28px;
+}
+
 body {
     font-family: "Lato", sans-serif;
     background-color: #333;
     color: #222;
     overflow-x: hidden;
     margin: 0;
+    text-align: justify;
 }
 
 .container {
-    background-color: #fafafa;
+    background-color: #ffe896;
     transform-origin: top left;
     transition:transform 0.5s linear;
     width: 100vw;
@@ -32,7 +54,7 @@ body {
 }
 
 .circle {
-    background-color: #ff7979;
+    background-color: #57b4f7;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -53,7 +75,7 @@ body {
     background: transparent;
     border: 0;
     font-size: 26px;
-    color: #fff;
+    color: #ffe896;
 }
 
 
@@ -86,7 +108,7 @@ nav ul {
 
 nav ul li {
     text-transform: uppercase;
-        color: white;
+        color: #57b4f7;;
         margin: 40px 0;
         transform: translateX(-100%);
         transition: transform 0.4s ease-in;
